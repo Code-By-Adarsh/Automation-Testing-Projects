@@ -8,8 +8,8 @@ public class ExtentReportManager {
     private static ExtentReports extent;
 
     public static ExtentReports getInstance() {
-        if (extent == null) {
-            String reportPath = System.getProperty("user.dir") + "\\reports\\SwagLabsTestReport.html";
+        if (extent == null){
+            String reportPath = System.getProperty("user.dir") + "\\reports\\SauceDemoTestReport.html";
             ExtentSparkReporter spark = new ExtentSparkReporter(reportPath);
 
             spark.config().setDocumentTitle("Test Report");
@@ -20,7 +20,7 @@ public class ExtentReportManager {
             extent.attachReporter(spark);
             extent.setSystemInfo("Automation Tester: ", "Adarsh Mishra");
             extent.setSystemInfo("Browser: ", "Chrome");
-            extent.setSystemInfo("Report: ","Swag Labs Test");
+            extent.setSystemInfo("Report: ","Sauce Demo Test");
         }
        return extent;
     }
