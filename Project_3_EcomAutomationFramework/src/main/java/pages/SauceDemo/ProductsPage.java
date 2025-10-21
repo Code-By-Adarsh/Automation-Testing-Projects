@@ -20,6 +20,7 @@ public class ProductsPage {
     //locator
     private By productImage = By.cssSelector(".inventory_item_img img");
     private By addToCartButton = By.cssSelector("btn.btn_primary.btn_small.btn_inventory");
+    private By productName = By.cssSelector(".inventory_item_name ");
 
     //action
     public int getTotalImages(){
@@ -51,5 +52,16 @@ public class ProductsPage {
             }
         }
         return false;
+    }
+
+    public boolean areProductRight(){
+        List<WebElement> productNames = driver.findElements(productName);
+        for (WebElement name:productNames){
+            if (!(name.getText().contains("Sauce"))) {
+                System.out.println("Incorrect product name found: "+name.getText());
+                return false;
+            }
+        }
+        return true;
     }
 }
