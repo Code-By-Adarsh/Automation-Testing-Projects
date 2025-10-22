@@ -48,7 +48,7 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 ## 🖥️ Source Screenshots - Sauce Demo
 
 ## Login Page
-![Screenshot]()
+![Login Page](Project_3_EcomAutomationFramework/All Screenshots/Sauce Demo Login Page.png)
 
 ## Product Page
 ![Screenshot]()
