@@ -21,6 +21,8 @@ public class ProductsPage {
     private By productImage = By.cssSelector(".inventory_item_img img");
     private By addToCartButton = By.cssSelector("btn.btn_primary.btn_small.btn_inventory");
     private By productName = By.cssSelector(".inventory_item_name ");
+    private By twitter = By.linkText("Twitter");
+    private By cartButton = By.cssSelector(".btn.btn_primary.btn_small.btn_inventory ");
 
     //action
     public int getTotalImages(){
@@ -63,5 +65,20 @@ public class ProductsPage {
             }
         }
         return true;
+    }
+
+    public WebElement areTwitterPerfect(){
+        WebElement element = driver.findElement(twitter);
+        return element;
+    }
+
+    public int areCartButtonWork(){
+        int i = 0;
+        List<WebElement> cartButtons = driver.findElements(cartButton);
+        for (WebElement button:cartButtons){
+            button.click();
+            i++;
+        }
+        return i;
     }
 }
