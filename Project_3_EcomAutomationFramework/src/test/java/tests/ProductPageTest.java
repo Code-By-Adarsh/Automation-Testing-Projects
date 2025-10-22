@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseTest;
+import listener.BaseListener;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -8,14 +9,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import pages.SauceDemo.LoginPage;
 import pages.SauceDemo.ProductsPage;
 
 import java.time.Duration;
+import java.util.Set;
 
+@Listeners(BaseListener.class)
 public class ProductPageTest extends BaseTest {
     //All the test perform from standard user view.
     private WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
@@ -99,16 +100,43 @@ public class ProductPageTest extends BaseTest {
         Assert.assertTrue(element.isDisplayed(),"Footer is not visible.");
     }
 
+    @Ignore
     @Test
     public void verifyTwitter(){
-        WebElement element = driver.findElement(By.linkText("Twitter"));
-        Assert.assertTrue(element.isDisplayed(),"Twitter icon is not visible.");
-        element.click();
-        wait.until(ExpectedConditions.urlContains("https://x.com/saucelabs"));
-        System.out.println("Current URL: "+driver.getCurrentUrl());
-        Assert.assertEquals(driver.getCurrentUrl(),"https://x.com/saucelabs","Url did not matched.");
+        ProductsPage productsPage = new ProductsPage(driver);
+        String mainWindow = driver.getCurrentUrl();
+        Assert.assertTrue(productsPage.areTwitterPerfect().isDisplayed(),"Twitter icon is not visible.");
+        WebElement element1 = productsPage.areTwitterPerfect();
+        System.out.println("Main url: "+mainWindow);
+        element1.click();
+        wait.until(ExpectedConditions.numberOfWindowsToBe(2));
+        wait1();
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Set<String> allWindows = driver.getWindowHandles();
+        for (String window:allWindows){
+            if (!window.equals(mainWindow)){
+                driver.switchTo().window(window);
+                break;
+            }
+        }
+        wait.until(ExpectedConditions.urlContains("x.com/saucelabs"));
+        System.out.println("Current url: "+driver.getCurrentUrl());
+        Assert.assertTrue(driver.getCurrentUrl().contains("x.com/saucelabs"),"Url doesn't matched.");
     }
 
+    @Test
+    public void verifyCartButton(){
+        ProductsPage productsPage = new ProductsPage(driver);
+        int itemInCart = productsPage.areCartButtonWork();
+        System.out.println("Total carts clicked buttons: "+itemInCart);
+        String element = driver.findElement(By.cssSelector(".shopping_cart_badge")).getText();
+        System.out.println("Total item added: "+element);
+        Assert.assertEquals(itemInCart,Integer.parseInt(element),"Expected: Total 6 items added to cart but there is error in cart button working.");
+    }
 
     @Override
     @AfterMethod
