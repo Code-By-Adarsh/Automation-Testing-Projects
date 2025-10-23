@@ -5,7 +5,7 @@
 
 ## 🧠 Project Overview
 
-Welcome to **EcomAutomationFramework - Sauce Demo**, a complete **Automation Testing Framework** built by **Adarsh Mishra** to practice and implement real-world automation concepts using:
+Welcome to **EcomAutomationFramework - Sauce Demo**, a complete **Automation Testing Framework** to practice and implement real-world automation concepts using:
 
 - 🧑‍💻 **Java (OOP Concepts)**
 - 🧪 **Selenium WebDriver**
@@ -97,7 +97,13 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Code-By-Adarsh/Automation-Testing-Projects.git
-   cd EcomAutomationFramework
+   ```
+   ```bash
+   Openn in Vs code and Ohter Java IDE's.
+   ```
+   ```bash
+   Run via testng.xml
+   ```
 
 ---
 
@@ -133,6 +139,25 @@ EcomAutomationFramework/<br>
 │<br>
 ├── pom.xml<br>
 └── testng.xml<br>
+
+---
+
+## 🧑‍💻 About Me
+
+### 👋 Hi, I'm Adarsh Jayprakash Mishra!<br>
+🎓 B.Sc. Computer Science Student | 💻 Software Testing Enthusiast<br>
+I love building real-world projects to learn new technologies practically.<br>
+This project helped me master the core of Test Automation Framework design from scratch.
+
+---
+
+## 🤝 Connect With Me
+
+If you have any suggestions, improvements, or collaboration ideas — feel free to reach out!
+
+📬 LinkedIn: [Adarsh Mishra](https://www.linkedin.com/in/adarsh-jayprakash-mishra/)
+
+💻 GitHub: [Adarsh Mishra](https://www.github.com/Code-By-Adarsh)
 
 ---
 
