@@ -54,7 +54,7 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 ![Product Page](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/81d48e1213e7ad952b27b816325f29694c16a952/Project_3_EcomAutomationFramework/All%20Screenshots/Sauce%20Demo%20Product%20Page.png)
 
 ## 🛒 Cart Page
-![Cart Page]()
+![Cart Page](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/fbf91e9fba662cb65725c961e7ee11582ed6f31a/Project_3_EcomAutomationFramework/All%20Screenshots/Sauce%20Demo%20Cart%20Page.png)
 
 ## 📊 Sample Screenshots
 
