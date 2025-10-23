@@ -56,19 +56,25 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 ## 🛒 Cart Page
 ![Cart Page](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/fbf91e9fba662cb65725c961e7ee11582ed6f31a/Project_3_EcomAutomationFramework/All%20Screenshots/Sauce%20Demo%20Cart%20Page.png)
 
-## 📊 Sample Screenshots
+## 📊 Extent Reports & Output Screenshots
 
-### 🖥️ Login Page Test
-![Screenshot](https://your-login-test-screenshot-link)
+### Test Summary
+![Summary](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Test%20Summary.png)
 
-### 🛍️ Product Page Test
-![Screenshot](https://your-product-test-screenshot-link)
+### Test Timeline
+![Timeline](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Test%20Timeline.png)
 
-### 🛒 Cart Page Test
-![Screenshot](https://your-cart-test-screenshot-link)
+### Failed Test
+![Failed Test](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Failed%20Test.png)
 
-### 📑 Extent HTML Report
-![Screenshot](https://your-extent-report-screenshot-link)
+### 📑 Extent Report System & Environment
+![Extent System](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Extent%20Report%20System.png)
+
+### Extent Report summary
+![Extent Summary](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Extent%20Report%20Summary.png)
+
+### IntelliJ Idea Output
+![IntelliJ Output](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/IntelliJ%20Idea%20Output.png)
 
 ---
 
@@ -81,7 +87,7 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 | Build Tool | Maven |
 | Reporting | Extent Reports |
 | Design Pattern | Page Object Model (POM) |
-| IDE | IntelliJ IDEA / Eclipse |
+| IDE | IntelliJ IDEA |
 | Browser | Chrome (via ChromeDriver) |
 
 ---
@@ -90,7 +96,7 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/EcomAutomationFramework.git
+   git clone https://github.com/Code-By-Adarsh/Automation-Testing-Projects.git
    cd EcomAutomationFramework
 
 ---
@@ -130,3 +136,14 @@ EcomAutomationFramework/<br>
 
 ---
 
+## 🏁 Final Thoughts
+### Building this project taught me:<br>
+1. Complete Automation Workflow Setup<br>
+2. Writing & Executing TestNG test suites<br>
+3. Understanding failures and skipped tests in reports<br>
+4. Creating Professional Reports like QA teams do in the industry<br>
+```bash
+💬 “Testing is not just about finding bugs — it’s about building confidence in the product.”
+```
+   ⭐ If you like this project, please give it a Star!<br>
+    Thank you for visiting 🚀
