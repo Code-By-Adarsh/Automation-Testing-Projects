@@ -5,7 +5,7 @@
 
 ## 🧠 Project Overview
 
-Welcome to **EcomAutomationFramework - Sauce Demo**, a complete **Automation Testing Framework** built by **Adarsh Mishra** to practice and implement real-world automation concepts using:
+Welcome to **EcomAutomationFramework - Sauce Demo**, a complete **Automation Testing Framework** to practice and implement real-world automation concepts using:
 
 - 🧑‍💻 **Java (OOP Concepts)**
 - 🧪 **Selenium WebDriver**
@@ -47,28 +47,34 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 ---
 ## 🖥️ Source Screenshots - Sauce Demo
 
-## Login Page
+## 🖥️ Login Page
 ![Login Page](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/79517bae3719b0a3da7f45ac87c8e0987423db04/Project_3_EcomAutomationFramework/All%20Screenshots/Sauce%20Demo%20Login%20Page.png)
 
-## Product Page
-![Screenshot]()
+## 🛍️ Product Page
+![Product Page](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/81d48e1213e7ad952b27b816325f29694c16a952/Project_3_EcomAutomationFramework/All%20Screenshots/Sauce%20Demo%20Product%20Page.png)
 
-## Cart Page
-![Screenshot]()
+## 🛒 Cart Page
+![Cart Page](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/fbf91e9fba662cb65725c961e7ee11582ed6f31a/Project_3_EcomAutomationFramework/All%20Screenshots/Sauce%20Demo%20Cart%20Page.png)
 
-## 📊 Sample Screenshots
+## 📊 Extent Reports & Output Screenshots
 
-### 🖥️ Login Page Test
-![Screenshot](https://your-login-test-screenshot-link)
+### Test Summary
+![Summary](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Test%20Summary.png)
 
-### 🛍️ Product Page Test
-![Screenshot](https://your-product-test-screenshot-link)
+### Test Timeline
+![Timeline](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Test%20Timeline.png)
 
-### 🛒 Cart Page Test
-![Screenshot](https://your-cart-test-screenshot-link)
+### Failed Test
+![Failed Test](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Failed%20Test.png)
 
-### 📑 Extent HTML Report
-![Screenshot](https://your-extent-report-screenshot-link)
+### 📑 Extent Report System & Environment
+![Extent System](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Extent%20Report%20System.png)
+
+### Extent Report summary
+![Extent Summary](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/Extent%20Report%20Summary.png)
+
+### IntelliJ Idea Output
+![IntelliJ Output](https://github.com/Code-By-Adarsh/Automation-Testing-Projects/blob/364ac705e1e806e0609bc00438b33c74d5d550f7/Project_3_EcomAutomationFramework/All%20Screenshots/IntelliJ%20Idea%20Output.png)
 
 ---
 
@@ -81,7 +87,7 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 | Build Tool | Maven |
 | Reporting | Extent Reports |
 | Design Pattern | Page Object Model (POM) |
-| IDE | IntelliJ IDEA / Eclipse |
+| IDE | IntelliJ IDEA |
 | Browser | Chrome (via ChromeDriver) |
 
 ---
@@ -90,8 +96,14 @@ It was created as part of a **6-day personal challenge (17th Oct – 22nd Oct)**
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/EcomAutomationFramework.git
-   cd EcomAutomationFramework
+   git clone https://github.com/Code-By-Adarsh/Automation-Testing-Projects.git
+   ```
+   ```bash
+   Openn in Vs code and Ohter Java IDE's.
+   ```
+   ```bash
+   Run via testng.xml
+   ```
 
 ---
 
@@ -130,3 +142,33 @@ EcomAutomationFramework/<br>
 
 ---
 
+## 🧑‍💻 About Me
+
+### 👋 Hi, I'm Adarsh Jayprakash Mishra!<br>
+🎓 B.Sc. Computer Science Student | 💻 Software Testing Enthusiast<br>
+I love building real-world projects to learn new technologies practically.<br>
+This project helped me master the core of Test Automation Framework design from scratch.
+
+---
+
+## 🤝 Connect With Me
+
+If you have any suggestions, improvements, or collaboration ideas — feel free to reach out!
+
+📬 LinkedIn: [Adarsh Mishra](https://www.linkedin.com/in/adarsh-jayprakash-mishra/)
+
+💻 GitHub: [Adarsh Mishra](https://www.github.com/Code-By-Adarsh)
+
+---
+
+## 🏁 Final Thoughts
+### Building this project taught me:<br>
+1. Complete Automation Workflow Setup<br>
+2. Writing & Executing TestNG test suites<br>
+3. Understanding failures and skipped tests in reports<br>
+4. Creating Professional Reports like QA teams do in the industry<br>
+```bash
+💬 “Testing is not just about finding bugs — it’s about building confidence in the product.”
+```
+   ⭐ If you like this project, please give it a Star!<br>
+    Thank you for visiting 🚀
