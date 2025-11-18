@@ -1,0 +1,1 @@
+{"uuid":"78d4df89-003a-46ac-befc-c110120ae01b","name":"tests.DashBoardTest.setUp","children":["48867d63-eff9-45f1-ba70-56094302985a"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1763465698739,"stop":1763465707551}],"afters":[],"start":1763465698739,"stop":1763465707554}

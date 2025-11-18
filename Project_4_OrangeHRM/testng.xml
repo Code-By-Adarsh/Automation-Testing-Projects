@@ -9,4 +9,10 @@
             <class name="tests.LoginTest"/>
         </classes>
     </test>
+
+    <test name="DashBoard Page Test">
+        <classes>
+            <class name="tests.DashBoardTest"/>
+        </classes>
+    </test>
 </suite>
