@@ -1,7 +1,7 @@
 # 🚀 Automation Testing Projects  
 
 This repository contains all my **Automation Testing Projects** that I have built while learning **Selenium WebDriver** and **TestNG Framework**.  
-It includes a collection of **basic, intermediate, and advanced** level projects to demonstrate my understanding of automation testing concepts, best practices, and real-world test scenarios.  
+It includes a collection of **basic, intermediate, and advanced** level projects to demonstrate my understanding of automation testing concepts, best practices, and real-world test scenarios..  
 
 ---
 
